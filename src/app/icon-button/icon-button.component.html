@@ -1,0 +1,6 @@
+<div class="center">
+  <button (click)="onClick()">Показать случайную иконку</button>
+  <div *ngFor="let icon of icons">
+    <i class="fas {{ icon }}"></i>
+  </div>
+</div>
